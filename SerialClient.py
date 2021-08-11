@@ -19,13 +19,10 @@ def talker():
 
     pub = rospy.Publisher('SensorPose', PoseStamped, queue_size=45)
     rospy.init_node('talker')
-   # print('hello')
     while not rospy.is_shutdown():
-      # print('hi')
        data = ser.readline()
        dataString = str(data)
        splitCheck = dataString.split('Gyro: ')
-      # print('hello back')
        try:
             
             newString = splitCheck[1].split(', ')
