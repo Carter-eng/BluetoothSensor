@@ -12,3 +12,6 @@ https://learn.adafruit.com/adafruit-feather-sense/overview
 https://learn.adafruit.com/introducing-the-adafruit-bluefruit-le-uart-friend
 
 Made for testing in the Boston University Robotics Lab
+Wiring for the Arduino handler is shown below
+
+![alt text](https://github.com/Carter-eng/BluetoothSensor/main/adafruit_products_UARTFriend_bb.png?raw=true)
