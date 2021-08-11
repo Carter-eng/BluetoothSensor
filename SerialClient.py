@@ -29,9 +29,6 @@ def talker():
        try:
             
             newString = splitCheck[1].split(', ')
-            
-            #pub.publish(dataString)
-            #print(len(newString))
             if len(newString)==3:
                 try:
                     quaternion = euler_to_quaternion(float(newString[2]),float(newString[1]),float(newString[0]))
@@ -55,7 +52,6 @@ def talker():
             else:
                 pass
        except IndexError:
-          #  newString = splitCheck[1].split(', ')
             pass
 
 if __name__ == '__main__':
